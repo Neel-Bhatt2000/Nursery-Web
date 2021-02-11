@@ -1,0 +1,137 @@
+body{
+	background: url('../images/bg.png');
+}
+/*Header*/
+
+
+#header-nav {
+  background-color: cyan;
+  border-radius: 0;
+  border: 0;
+}
+#marquee {
+  color: black;
+  font-weight: bold;
+}
+#logo img{
+  background: no-repeat;
+  width: 150px;
+  height: 150px;
+  margin: 10px 15px 10px 0;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Lora', serif;
+  color: #557c3e;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+/*End Of Header*/
+
+/*MAin TAsk2*/
+.flower-tile { 
+  position: relative;
+  border: 2px solid #fff;
+  overflow: hidden;
+  width: 250px;
+  height: 250px;
+  margin: 0 auto 15px;
+}
+.flower-tile div{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.2em;
+  background-color: #000;
+  color: #fff;
+  opacity: .5;
+}
+.flower-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+.image1{
+  padding-left: 0px;
+  padding-right: 200px;
+}
+.image2{
+  padding-left: 200px;
+  padding-right: 0px;
+}
+/*end Main Task2*/
+
+
+/*Dis*/
+.item-photo img {
+  background: url('https://theculturetrip.com/wp-content/uploads/2018/03/shutterstock_410492524.jpg') no-repeat;
+  position: relative;
+  border: 3px solid grey; 
+  overflow: hidden;
+  width: 400px;
+  height: 450px;
+  margin:5px auto 15px;
+}
+.item-photo div {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color: black;
+  width: 80px;
+  text-align: center;
+}
+
+.item-details{
+  color: black;
+  font-size: 1em;
+  font-style: italic;
+  text-align: left;
+  margin-right:25%;
+  margin-left: 25%;
+
+}
+.price-details {
+  font-size: 1.5em;
+  color: black;
+}
+.price-details p span{
+  font-size: 1em;
+  color: black;
+  font-weight: bold;
+}
+#name-tile {
+  font-weight: bold;
+  font-family:'impact,fantacy';
+  color: black;  
+}
+
+.button1{
+  padding-bottom: 15px; 
+}
+/*dis*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
